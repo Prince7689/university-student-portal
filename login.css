@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+}
+
+.left-section {
+  width: 40%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+.institutes img {
+  width: 90%;
+}
+
+.login-container {
+  width: 60%;
+  background: url('../assets/bg-campus.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.charusat-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 10px 0 30px;
+  color: #2c3e50;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot {
+  display: block;
+  margin: 10px 0;
+  color: #5e5edc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
